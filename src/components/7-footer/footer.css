@@ -1,0 +1,16 @@
+.footer {
+   width: 80%;
+   text-transform: capitalize;
+   color: rgb(217, 213, 213);
+   letter-spacing: 1.2px;
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   margin-top: 20px;
+   flex-direction: column;
+   padding: 20px 0px;
+   text-align: center;
+}
+.footer-social-links {
+    width: 20%;
+    font-size: 1.3em;
+    color: rgba(217, 213, 213, 0.819);
+}

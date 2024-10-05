@@ -1,0 +1,170 @@
+/*
+-------------------------
+***** Page Content *****
+-------------------------
+1- Hero Section
+2- Title
+3- Hero Image
+*/
+
+/*====================
+   1- Hero Section
+======================*/
+.hero {
+    margin-top: 8.5%;
+    letter-spacing: 1.5px;
+}
+.hero_container {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    animation: fadeIn 2s;
+}
+.hero::after {
+    display: block;
+    content: '';
+    width: 80%;
+    height: 3px;
+    background: #8E2DE2;
+    background: linear-gradient(90deg, #4b00e022 0%, #8E2DE2 20%,#36e3ef 40%,#8E2DE2 90%, #4b00e022 100%);
+    margin: auto;
+}
+
+/*====================
+      2- Title
+======================*/
+h1 {
+    margin-top: 15px;
+    font-size: 3.5rem;
+    /* background: -webkit-linear-gradient(-45deg,#36e3ef,#4A00E0, #db3db6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    text-align: center;
+    /* transition: all 3s ease; */
+}
+.hero p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    width: 90%;
+    margin: auto;
+    /* transition: all 3s ease; */
+}
+.ar-content {
+    animation: fadeIn 2s;
+}
+.small-title {
+    background: -webkit-linear-gradient(-45deg,#36e3ef,#a78ddc, #db3db6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*====================
+    3- Hero Image
+======================*/
+.hero_container img {
+    width: 75%;
+   -webkit-box-reflect: below -15px linear-gradient(transparent, transparent, #0003);
+
+}
+.hero_container .img {
+    text-align: center;
+    padding-bottom: 150px;
+}
+.img img {
+    z-index: 10;
+    margin-top: 20px;
+}
+.purple-squar {
+    display: inline-block;
+    background: rgba(54, 227, 239, 1);
+    background: linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, #4b00e0 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    /*background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #4A00E0, #8E2DE2);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: blur(50px);
+
+}
+.img .purple-squar {
+    width: 63%;
+    height: 37%;
+    position: absolute;
+    top: 33%;
+    right: 18%;
+}
+
+/*----------------------------------------------------------------------------------
+**********************************  MEDIA QUERY **********************************
+-----------------------------------------------------------------------------------*/
+/* LARGE DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+    .hero_container img {
+    width: 65%;
+    }
+}
+/************************************************/
+/* DESKTOP VERSION ONLY */
+@media (max-width: 1399.98px) {}
+
+/*****************************************/
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (max-width: 992px) {
+    .img .purple-squar {
+        width: 60%;
+        height: 33%;
+        top: 39%;
+        right: 19%;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+/*******************************************/
+/* TABLET SMALL VERSION ONLY */
+
+@media (max-width: 768px) {
+    .hero {
+        margin-top: 20%;
+    }
+    .hero_container img {
+        width: 100%;
+    }
+    .img .purple-squar {
+        width: 100%;
+        height: 33%;
+        top: 42%;
+        right: 0%;
+    }
+}
+
+/****************************************/
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {
+    .hero_container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .hero_container img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .img .purple-squar {
+        width: 100%;
+        height: 20%;
+        top: 55%;
+        right: 0%;
+    }
+}
+

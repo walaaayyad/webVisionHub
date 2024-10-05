@@ -1,0 +1,185 @@
+#videoPlay {
+    width: 100%;
+    position: relative;
+    padding: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 11, 40, 0.9)),url('./images/space.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -15px;
+}
+#videoPlay::after {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    display: block;
+    content: '';
+    width: 80%;
+    height: 3px;
+    background: #8E2DE2;
+    background: linear-gradient(90deg, #4b00e022 0%, #8E2DE2 20%, #36e3ef 40%, #8E2DE2 90%, #4b00e022 100%);
+    margin: auto;
+}
+.video-play-section {
+    
+    /* background: rgb(7,11,40);
+    background: linear-gradient(180deg, rgba(7,11,40,1) 95%, transparent 100%); */
+  
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+}
+.video-play-box {
+    width: 80%;
+    margin-bottom: 80px;
+}
+.video-play-model iframe {
+    width: 100%;
+    height: 550px;
+}
+.logos-icons .logo_icon {
+    font-size: 55px;
+    position: absolute;
+    opacity: 0.5;
+}
+.logos-icons .logo_icon:nth-child(1) {
+    top: 9%;
+    right: 48%;
+    filter: drop-shadow(-6px 8px 6px #469dbc);
+}
+.logos-icons .logo_icon:nth-child(2) {
+    top: 40%;
+    right: 8%;
+    transform: rotate(45deg);
+    filter: drop-shadow(3px 4px 7px #469dbc);
+}
+.logos-icons .logo_icon:nth-child(3) {
+    bottom: 13%;
+    left: 2%;
+    transform: rotate(-45deg);
+    filter: drop-shadow(3px 5px 7px rgb(29, 163, 91));
+}
+.logos-icons .logo_icon:nth-child(4) {
+    top: 3%;
+    right: 11%;
+    transform: rotate(25deg);
+    filter: drop-shadow(2px 13px 17px #673ab7);
+}
+.logos-icons .logo_icon:nth-child(5) {
+    bottom: 40%;
+    left: 6%;
+    transform: rotate(25deg);
+    filter: drop-shadow(3px 5px 7px rgb(145, 13, 13));
+}
+.logos-icons .logo_icon:nth-child(6) {
+    top: 27%;
+    left: 10%;
+    transform: rotate(-10deg);
+    filter: drop-shadow(3px 5px 7px rgb(79, 110, 203));
+}
+.logos-icons .logo_icon:nth-child(7) {
+    bottom: 5%;
+    left: 17%;
+    transform: rotate(15deg);
+    filter: drop-shadow(3px 5px 7px #6acd6a);
+}
+.logos-icons .logo_icon:nth-child(8) {
+    top: 8%;
+    right: 26%;
+    transform: rotate(-45deg);
+    filter: drop-shadow(3px 5px 7px rgb(145, 13, 13));
+}
+.logos-icons .logo_icon:nth-child(9) {
+    bottom: 6%;
+    right: 15%;
+    transform: rotate(-45deg);
+    filter: drop-shadow(3px 5px 17px #1e74bd);
+}
+.logos-icons .logo_icon:nth-child(10) {
+    top: 8%;
+    right: 70%;
+    font-size: 70px;
+    filter: drop-shadow(3px 5px 7px rgb(87, 206, 224));
+}
+.logos-icons .logo_icon:nth-child(11) {
+    right: 4%;
+    bottom: 25%;
+    transform: rotate(20deg);
+    filter: drop-shadow(3px 5px 7px #AFA022);
+}
+.logos-icons .logo_icon:nth-child(12) {
+    top: 4%;
+    left: 5%;
+    transform: rotate(25deg);
+    filter: drop-shadow(10px 9px 10px #2b52a6);
+}
+/* .logos-icons .logo_icon:nth-child(13) {
+    right: 4%;
+    bottom: 25%;
+    transform: rotate(25deg);
+    filter: drop-shadow(10px 9px 10px #fff);
+} */
+
+/*----------------------------------------------------------------------------------
+**********************************  MEDIA QUERY **********************************
+-----------------------------------------------------------------------------------*/
+/* LARGE DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+
+}
+/************************************************/
+/* DESKTOP VERSION ONLY */
+@media (max-width: 1399.98px) {
+    .logos-icons .logo_icon {
+        font-size: 45px;
+    }
+    .logos-icons .logo_icon:nth-child(10) {
+        font-size: 60px;
+    }
+}
+
+/*****************************************/
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (max-width: 992px) {
+    .video-play-box {
+        width: 100%;
+    }
+    .logos-icons .logo_icon {
+        display: none;
+    }
+     .video-play-model iframe {
+        height: 400px;
+    }
+}
+/*******************************************/
+/* TABLET SMALL VERSION ONLY */
+
+@media (max-width: 768px) {
+    .video-play-model iframe {
+        height: 300px;
+    }
+}
+
+/****************************************/
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {
+     .video-play-model iframe {
+        height: 220px;
+        width: 300px;
+    }
+}
+
+/****************************************/
+/* VERY SMALLMOBILE VERSION ONLY */
+
+@media (max-width: 460px) {
+    .video-play-model iframe {
+        height: 200px;
+        width: 250px;
+    }
+}
+

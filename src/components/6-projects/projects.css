@@ -1,0 +1,268 @@
+/* *** gradient border *** 
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+.projects {
+    width: 100%;
+    /* width: 100%;
+    margin: auto;
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../../../public/images/background.jpg');
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    flex-direction: column; */
+}
+.cards{
+    width: inherit;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cards .card {
+    width: 30%;
+    /* border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px; */
+    /* box-shadow: -3px -4px -5px #673ab775; */
+    padding: 7px;
+    margin: 5px;
+    position: relative;
+    /* margin: 10px auto; */
+    /* background-color: #21253f8a; */
+    /* background: rgba( 230, 250, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    animation: fadeIn 2s;
+
+    /* border: 10px solid; */
+  
+
+    /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 0.39); */
+
+/* background: #130e3a;
+box-shadow:  9px 9px 18px #0d0926,
+             -9px -9px 18px #19134e; */
+}
+/* @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} */
+/* .cards .card.activeVid {
+    border: 4px solid green;
+} */
+.cards .card .heart {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(130, 31, 31);
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 50%;
+    padding: 5px;
+    padding-top: 7px;
+}
+
+.cards .card h4 {
+    margin-top: 7px;
+    letter-spacing: 1.5px;
+    font-size: 1.2em;
+    background: -webkit-linear-gradient(-45deg,#36e3ef,#a78ddc, #db3db6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*==== 4_1 Cards Images ====*/
+.cards .card-img {
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #ffffff73;
+}
+.cards .card-img .dark-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    cursor: pointer;
+
+}
+.cards .card-img .dark-layer:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.cards .card-img .dark-layer.activeVid {
+   display: none;
+}
+.cards .card-img .dark-layer span {
+    padding: 10px 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding-left: 10px;
+    background-color: #ffffff4d;
+    padding-left: 15px;
+}
+.cards .card-img img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    scale: 1.02;
+} 
+.cards .card-img {
+    overflow: hidden;
+}
+/*==== 4_2 Cards Content ====*/
+.card-content {
+    /* background-color: rgba(75, 0, 224, 0.1); */
+    /* height: 150px; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+/* .card-content .card-title {
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 10px;
+} */
+.card-content .card-describtion {
+    font-weight: 200;
+    margin: 10px;
+    font-size: 13px;
+}
+/*==== 4_3 Cards Buttons ====*/
+.card-content .card-btns {    
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.card-content .youTube-card-btn {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    /* border: 1px solid rgba(255, 255, 255, 0.399); */
+    /* background-color: rgba(255, 255, 255, 0.189); */
+    border-radius: 5px;
+    background: rgba(54, 227, 239, 0.5);
+    background: linear-gradient(-45deg, hsla(184, 85%, 57%, 0.5) 0%, #4b00e0 50%, hsla(260, 100%, 44%, 0.5) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -moz-linear-gradient(-45deg, hsla(184, 85%, 57%, 0.5) 0%, hsla(260, 100%, 44%, 0.5) 50%, hsla(260, 100%, 44%, 0.5) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -webkit-linear-gradient(-45deg, hsla(184, 85%, 57%, 0.5) 0%, hsla(260, 100%, 44%, 0.5) 50%, hsla(260, 100%, 44%, 0.5) 70%, rgba(236, 158, 255, 0.5) 100%);
+}
+.card-content .youTube-card-btn span {
+    margin-left: 4px;
+    padding-top: 2px;
+}
+.card-content .icon-heart-o {
+    color: #ffffff87;
+    font-size: 18px;
+    border: 1px solid #ffffff87;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-content a {
+    text-decoration: none;
+}
+.no-project-screen {
+    width: 80vw;
+    text-align: center;
+}
+/* .card-content .icon-youtube-play {
+    color: red;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    font-size: large;
+} */
+/*==== 4_4 Watch Now Model ====*/
+/* .cards .card .video-play-btn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+ */
+/*----------------------------------------------------------------------------------
+**********************************  MEDIA QUERY **********************************
+-----------------------------------------------------------------------------------*/
+/* LARGE DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+    .cards .card {
+        width: 23%;
+        margin: 0;
+        padding: 0;
+    }
+}
+/************************************************/
+/* DESKTOP VERSION ONLY */
+@media (max-width: 1399.98px) {}
+
+/*****************************************/
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (max-width: 992px) {
+.projects-filter-btns {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.projects-filter-btns button span {
+    display: none;
+}
+.projects-filter-btns button {
+    justify-content: center;
+    padding-left: 0px;
+}
+}
+/*******************************************/
+/* TABLET SMALL VERSION ONLY */
+
+@media (max-width: 768px) {
+.projects-filter-btns button {
+    width: 8rem;
+    height: 2rem;
+    margin: 4px auto;
+}
+.cards .card {
+    width: 45%;
+    padding: 0px;
+    margin: 0px;
+}
+}
+
+/****************************************/
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {}
+/****************************************/
+/* VERY SMALLMOBILE VERSION ONLY */
+
+@media (max-width: 460px) {
+  .cards .card {
+    width: 80%;
+  }
+}

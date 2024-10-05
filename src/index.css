@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/*
+1- General
+2- Container
+3- List
+4- Main Section
+5- Scroll Up Button
+6- load more button
+7- Border & Devider
+8- Animation
+*** MEDIA QUERY ***
+*/
+
+/*====================
+      1- General
+======================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root {
+  --primary-color-dark: #070b28;
+  --blue-color: rgba(54, 227, 239, 0.5);
+  --light-color: #fff
+}
+html {
+  font-family: "Roboto", sans-serif;
+  /* max-width: 1400px; */
+  margin: auto;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #070b28;
+ 
+  color: var(--light-color);
+  min-height: 100vh;
+}
+
+/*====================
+    2- Container
+======================*/
+.container {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 1rem;
+}
+.grade-bg {
+    background: rgba(54, 227, 239, 1);
+    background: linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, #4b00e0 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -moz-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -webkit-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+}
+/*====================
+      3- List
+======================*/
+ul {
+    list-style: none;
+}
+ul li {
+    padding: 15px;
+}
+a {
+  font-weight: 500;
+  color: var(--light-color);
+  text-decoration: inherit;
+}
+
+/*====================
+  4- Main Section
+======================*/
+.main {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -13px;
+}
+.main .main-left {
+  width: 18%;
+  padding-top: 60px;
+}
+.main .main-right {
+  width: 82%;
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-image:linear-gradient(180deg, rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../../../public/images/background.jpg');
+  background-position: center;
+  background-size: contain; */
+}
+.main .loadMoreBtn {
+  margin-top: 50px;
+}
+/*====================
+  5- Scroll Up Button
+======================*/
+.scroll-up {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2rem;
+    right: 3%;
+    text-align: center;
+    border: none;
+    opacity: 0.8;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    font-size: 1.4rem;
+    color: #fff;
+    cursor: pointer;
+    /* background: rgba(255, 255, 255, 0.3); */
+    background: rgba(54, 227, 239, 1);
+    background: linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, #4b00e0 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -moz-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -webkit-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    z-index: 100;
+
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.39);
+  clip-path: circle(0px at 100% -15%);
+  -webkit-clip-path: circle(0px at 100% -15%); */
+}
+.scroll-up:hover {
+    border-color: rgb(95, 37, 166);
+    background-color: rgba(91, 39, 137, 0.46);
+}
+
+
+/*====================
+  6- Load More Button
+======================*/
+.loadMoreBtn {
+    color: #fff;
+    width: 20%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.loadMoreBtn:hover {
+    background-position: right center;
+}
+
+/*====================
+  7- Border & Devider
+======================*/
+.border {
+    border: 2px solid red;
+}
+.divider {
+    border-bottom: 1px solid var(--border-color);
+    margin: 3rem 0;
+}
+
+/*====================
+  8- Animation
+======================*/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/*----------------------------------------------------------------------------------
+**********************************  MEDIA QUERY **********************************
+-----------------------------------------------------------------------------------*/
+/* DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+
+  /* body {
+      background-color: #ea7478;
+  } */
+  .main .main-left {
+    width: 15%;
+  }
+  .main .main-right {
+    width: 85%;
+  }
+    
+}
+/************************************************/
+@media (max-width: 1399.98px) {
+
+  /* body {
+      background-color: #d52ac4;
+  } */
+    
+}
+
+/*****************************************/
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (max-width: 992px) {
+  /* body {
+      background-color: #2b95e0;
+  } */
+  .main {
+    justify-content: center;
+  }
+  .main .main-left {
+    width: 90%;
+    }
+    
+}
+/*******************************************/
+/* TABLET SMALL VERSION ONLY */
+
+@media (max-width: 768px) {
+  /* body {
+      background-color: #1ed46a;
+  } */
+.main .main-left {
+  padding-top: 0px;
+}
+.main .main-right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .loadMoreBtn {
+    width: 30%;
+  }  
+}
+
+/****************************************/
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {
+  /* body {
+      background-color: #ecde1a;
+  }  */
+
+    
+}
+/****************************************/
+/* VERY SMALLMOBILE VERSION ONLY */
+
+@media (max-width: 460px) {
+  /* body {
+      background-color: #2a2703;
+  }  */
+  .loadMoreBtn {
+    width: 45%;
+  }
+}

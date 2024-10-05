@@ -1,0 +1,77 @@
+.projects-filter-btns {
+    width: 90%;
+    text-align: center;
+    /* border: 1px solid rgba(255, 255, 255, 0.215); */
+    padding: 2.5% 0px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #070b2847;
+}
+.projects-filter-btns button {
+    width: 9rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 13px auto;
+    border-radius: 3px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.projects-filter-btns button:first-child {
+    justify-content: center;
+    padding-left: 0px;
+}
+.projects-filter-btns button:hover {
+    border: 1px solid #4daded;
+}
+.projects-filter-btns button span {
+    margin-right: 10px;
+}
+.projects-filter-btns button.active {
+    background: rgba(54, 227, 239, 1);
+    background: linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -moz-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    background: -webkit-linear-gradient(-45deg, hsla(184, 85%, 57%, 1) 0%, hsla(260, 100%, 44%, 1) 50%, hsla(260, 100%, 44%, 1) 70%, rgba(236, 158, 255, 0.5) 100%);
+    color: white; 
+    border: none;    
+    background-size: 120% auto;      
+}
+.projects-filter-btns button:hover {
+    color: #fff;
+    background-position: right center;
+}
+
+/*----------------------------------------------------------------------------------
+**********************************  MEDIA QUERY **********************************
+-----------------------------------------------------------------------------------*/
+/* LARGE DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+    /* .projects-filter-btns button {
+        margin: 13px auto;
+    } */
+}
+/************************************************/
+/* DESKTOP VERSION ONLY */
+@media (max-width: 1399.98px) {}
+
+/*****************************************/
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (max-width: 992px) {}
+/*******************************************/
+/* TABLET SMALL VERSION ONLY */
+
+@media (max-width: 768px) {}
+
+/****************************************/
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {}
