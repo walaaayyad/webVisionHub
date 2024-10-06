@@ -52,6 +52,8 @@ body.menuOpen {
     align-items: center ;
     justify-content: center;
     gap: 1rem;
+    -webkit-gap: 1rem;
+    -moz-gap: 1rem
 }
 .grade-bg {
     background: rgba(54, 227, 239, 1);
@@ -194,7 +196,6 @@ a {
 }
 /************************************************/
 @media (max-width: 1399.98px) {
-
   /* body {
       background-color: #d52ac4;
   } */
@@ -214,7 +215,9 @@ a {
   .main .main-left {
     width: 90%;
     }
-    
+  .main .main-right {
+    width: 100%;
+  } 
 }
 /*******************************************/
 /* TABLET SMALL VERSION ONLY */
@@ -248,7 +251,7 @@ a {
 /****************************************/
 /* VERY SMALLMOBILE VERSION ONLY */
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   /* body {
       background-color: #2a2703;
   }  */

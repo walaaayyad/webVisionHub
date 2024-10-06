@@ -225,28 +225,18 @@ box-shadow:  9px 9px 18px #0d0926,
 /* TABLET MEDIUM & LARGE VERSION ONLY */
 
 @media (max-width: 992px) {
-.projects-filter-btns {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-} 
-.projects-filter-btns button span {
-    display: none;
+.cards .card {
+    padding: 0px;
+    margin-bottom: 40px;
 }
-.projects-filter-btns button {
-    justify-content: center;
-    padding-left: 0px;
+.card-content .youTube-card-btn {
+    width: 55%;
 }
 }
 /*******************************************/
 /* TABLET SMALL VERSION ONLY */
 
 @media (max-width: 768px) {
-.projects-filter-btns button {
-    width: 8rem;
-    height: 2rem;
-    margin: 4px auto;
-}
 .cards .card {
     width: 45%;
     padding: 0px;
@@ -261,8 +251,9 @@ box-shadow:  9px 9px 18px #0d0926,
 /****************************************/
 /* VERY SMALLMOBILE VERSION ONLY */
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .cards .card {
-    width: 80%;
+    width: 95%;
+    margin-bottom: 40px;
   }
 }

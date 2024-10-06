@@ -319,7 +319,7 @@ header .model {
   width: 80px;
 }
 .search-bar.active {
-  width: 135px;
+  width: 225px;
   padding: 0px;
 }
 .icon-close {
@@ -336,7 +336,7 @@ header .model {
 }
 /**********************************/
 /* VERY SMALL MOBILE */
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   header .model {
   width: 80%;
 }
@@ -353,5 +353,8 @@ header .model {
 .favorite-list-item {
   width: 97%;
   flex-wrap: wrap;
+}
+.search-bar.active {
+  width: 195px;
 }
 }

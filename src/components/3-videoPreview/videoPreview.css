@@ -176,10 +176,17 @@
 /****************************************/
 /* VERY SMALLMOBILE VERSION ONLY */
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
+    #videoPlay {
+        height: 500px;
+        align-content: end;
+    }
     .video-play-model iframe {
         height: 200px;
-        width: 250px;
+        width: 300px;
+    }
+    .video-play-section {
+        padding: 0px;
     }
 }
 

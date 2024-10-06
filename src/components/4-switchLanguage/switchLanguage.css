@@ -58,4 +58,11 @@
 /****************************************/
 /* MOBILE VERSION ONLY */
 
-@media (max-width: 576px) {}
+@media (max-width: 500px) {
+    .switch-bar {
+    margin: 25px auto 10px;
+    }
+    .switch-bar button {
+        font-size: 10px;
+    }
+}
