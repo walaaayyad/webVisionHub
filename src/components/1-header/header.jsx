@@ -27,7 +27,7 @@ useEffect(()=> {
   })
 })
   return (
-    <header className='flex'>
+    <header id='header' className='flex'>
       <div className="switchBtn">
         <label className='switch'>
           <input 

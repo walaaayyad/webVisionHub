@@ -126,6 +126,7 @@ console.log(searchTerm);
         setArLanguage = {setArLanguage}
         searchTerm = {searchTerm}
       />
+      <div id='up'></div>
       <Hero
         arLanguage = {arLanguage}
       /> 
@@ -161,7 +162,7 @@ console.log(searchTerm);
         </div>
       </div>
         {/* Add condition to check if the user scroll down so the button appear by change its opacity */}
-        <a href="#hero" style={{opacity: scrollUp ? 1 : 0, transition: "1s"}}>
+        <a href="#up" style={{opacity: scrollUp ? 1 : 0, transition: "1s"}}>
         <button className='scroll-up icon-chevron-circle-up'></button>
       </a>
   
