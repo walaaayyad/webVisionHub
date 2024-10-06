@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 const Header = ({userFavoriteList, handleSearchInput, runNewVideo, removeItemHandler, arLanguage, setArLanguage, searchTerm})=> {
   const [showModel, setshowModel] = useState(false);
@@ -12,7 +12,20 @@ const Header = ({userFavoriteList, handleSearchInput, runNewVideo, removeItemHan
   const closeSearchBar = ()=> {
     document.querySelector("#search-box").classList.remove('active');
   }
-
+  const openMenuHandler = ()=> {
+    document.body.classList.add('menuOpen');
+    setshowModel(true);
+  }
+  const closeMenuHandler = ()=> {
+    document.body.classList.remove('menuOpen');
+    setshowModel(false);
+  }
+// Handle close favorite menu when click outside the menu.
+useEffect(()=> {
+  document.addEventListener('mousedown', ()=> {
+    closeMenuHandler();
+  })
+})
   return (
     <header className='flex'>
       <div className="switchBtn">
@@ -44,7 +57,7 @@ const Header = ({userFavoriteList, handleSearchInput, runNewVideo, removeItemHan
         </div>
         <button className='heart-btn icon-heart-o' 
                 onClick={()=> {
-                userFavoriteList.length > 0 && setshowModel(true);
+                userFavoriteList.length > 0 && openMenuHandler();
                 }}>
         </button>
       </div>
@@ -52,7 +65,7 @@ const Header = ({userFavoriteList, handleSearchInput, runNewVideo, removeItemHan
       <div className={showModel ? "model active" : "model"}> {/* Add condition if showModel state change to true class active will add */}
         <button className="close-btn icon-close" 
                 onClick={()=> {
-                  setshowModel(false);
+                  closeMenuHandler();
                   }}>
         </button>
         

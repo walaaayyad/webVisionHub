@@ -36,7 +36,9 @@ body {
   color: var(--light-color);
   min-height: 100vh;
 }
-
+body.menuOpen {
+  overflow: hidden;
+}
 /*====================
     2- Container
 ======================*/
