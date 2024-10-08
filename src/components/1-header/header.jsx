@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css';
 import {useState, useEffect} from 'react'
 
-const Header = ({userFavoriteList, handleSearchInput, runNewVideo, removeItemHandler, arLanguage, setArLanguage, searchTerm})=> {
+const Header = ({handleSearchInput, runNewVideo, arLanguage, setArLanguage, searchTerm, favoriteItems, removeFavorite})=> {
   const [showModel, setshowModel] = useState(false);
 
   // Search Bar Functions
@@ -26,6 +26,10 @@ useEffect(()=> {
     closeMenuHandler();
   })
 })
+
+// Handle the favoriteItems data to be able to use it
+const fav = Object.keys(favoriteItems);
+
   return (
     <header id='header' className='flex'>
       <div className="switchBtn">
@@ -57,7 +61,7 @@ useEffect(()=> {
         </div>
         <button className='heart-btn icon-heart-o' 
                 onClick={()=> {
-                userFavoriteList.length > 0 && openMenuHandler();
+                fav.length > 0 && openMenuHandler();
                 }}>
         </button>
       </div>
@@ -70,17 +74,18 @@ useEffect(()=> {
         </button>
         
         <div className="favorite-list">
-          {userFavoriteList.length > 0 ? // the list start with initial empty object
-         userFavoriteList.map(i => {
+        {fav.length > 0 ? // the list start with initial empty object
+          fav.map((key) => {
+          const item = favoriteItems[key];
             return (
-              <div className='favorite-list-item' key={i.id}>
-                <img src={i.img} alt="" />
+              <div className='favorite-list-item' key={item.id}>
+                <img src={item.img} alt="" />
                 <div className="favorite-list-item-content">
-                  <p>{i.title}</p>
-                  <div className='list-category'>{i.category.join(' , ')}</div>
+                  <p>{item.title}</p>
+                  <div className='list-category'>{item.category.join(' , ')}</div>
                   <button className='grade-bg' onClick={()=> {   
-                      runNewVideo(i.embedId)}}>Play Now</button>
-                  <button onClick={()=> removeItemHandler(i.id)}>Remove</button>
+                      runNewVideo(item.embedId)}}>Play Now</button>
+                  <button onClick={()=> removeFavorite(item.id)}>Remove</button>
                 </div>
               </div>
               )

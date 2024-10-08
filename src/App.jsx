@@ -10,9 +10,9 @@ import { useState, useEffect } from 'react'
 
 
 function App() {
-  const [favoriteItems, setFavoriteItems] = useState({});
-  const [userFavoriteList, setUserFavoriteList] = useState([]); // This state to hold favorite items that comes from [project component] and send this state to [header component] model list.
   const loadData = Data; // Import data from JSON file.
+  const storedFav = JSON.parse(localStorage.getItem("fav")); // Get the localStorage data.
+  const [favoriteItems, setFavoriteItems] = useState(()=> storedFav ? storedFav : []); // This state to save favorite projects.
   const [playVid, setPlayVid] = useState("bv_IJ3N6y8U"); // This state for [videoPreview component] to save active video.
   const [filterProjects, setFilterProjects] = useState(loadData); // This state show the projects in [projects component] or hold the changes that comes from buttons filter in [switchLanguge component & filterButtons coponent]. 
   const [langBtn, setLangBtn] = useState('all'); // This state to handle the filtered projects languges in [SwitchLanguage component] and pass new data to [projects component].
@@ -21,42 +21,58 @@ function App() {
   const [searchTerm, setSearchTerm] = useState(''); // This state to handle search input bar in the [header component].
   const [arLanguage, setArLanguage] = useState(false);
   const [scrollUp, setScrollUp] = useState(false);
-  
-  //-------------------- [ header component] -----------------------
-  // Add Favorite Items in LocalStorage
-  useEffect(()=> {
-    const favList = localStorage.getItem("favoriteItems");
-      setUserFavoriteList(favList && favList.length > 0 ? JSON.parse(favList):[]);
-  }, [])
 
-  // Update local storage whenever favorites change
-  useEffect(()=> {
-     userFavoriteList.length > 0 && localStorage.setItem("favoriteItems", JSON.stringify(userFavoriteList));
-  }, [userFavoriteList]) 
-
-
-  //---------------------- [ videoPreview component ] -----------------------------
-  // Create function to handle playing videos when the user click on new video.
-  const runNewVideo = (i)=> {
-    document.getElementById("videoPlay").scrollIntoView();
-    setPlayVid(i);
+//-------------------- [ projects component & header component ] -----------------------
+// Handle the favorite projects when the heart clicked.
+const toggleFavorite = (item) => {
+  setFavoriteItems((prev) => {
+    const newFavorites = { ...prev };
+    if (newFavorites[item.id]) {
+      // If the item is already a favorite, remove it
+      delete newFavorites[item.id];
+    } else {
+      // If the item is not a favorite, add it
+      newFavorites[item.id] = item;
     }
+    return newFavorites;
+  });
+};
+// Handle remove button in favorite list.
+const removeFavorite = (itemId) => {
+  setFavoriteItems((prev) => {
+    const newFavorites = { ...prev };
+    delete newFavorites[itemId]; // Remove the item by its ID
+    return newFavorites; // Return the updated favorites state
+  });
+};
+// Save the favorite projects in the local storage.
+useEffect(()=> {
+  localStorage.setItem("fav", JSON.stringify(favoriteItems))
+}, [favoriteItems])
 
-  //---------------------- [ switchLanguages component ] ---------------------------
-  //Create function to handle switch buttons for languages English or Arabic
-  const handleLangProjects = (programLang) => {
-    searchTerm.length > 0 && setSearchTerm(''); // Check the search bar first to be able to make a new filter process and override the search value result.
-      let langArr = loadData.filter(item => item.lang === programLang);
-      let allBtnArr = loadData.filter(item => item.category.includes(activeBtn));
-      let engArabicBtnsArr = langArr.filter(item => item.category.includes(activeBtn));
 
-      if(activeBtn === 'all') {
-          programLang ? setFilterProjects(langArr) : setFilterProjects(loadData);
-        } else {
-          programLang ? setFilterProjects(engArabicBtnsArr) : setFilterProjects(allBtnArr) ;
-        }     
-      return filterProjects
-    }
+//---------------------- [ videoPreview component ] -----------------------------
+// Create function to handle playing videos when the user click on new video.
+const runNewVideo = (i)=> {
+  document.getElementById("videoPlay").scrollIntoView();
+  setPlayVid(i);
+  }
+
+//---------------------- [ switchLanguages component ] ---------------------------
+//Create function to handle switch buttons for languages English or Arabic
+const handleLangProjects = (programLang) => {
+  searchTerm.length > 0 && setSearchTerm(''); // Check the search bar first to be able to make a new filter process and override the search value result.
+    let langArr = loadData.filter(item => item.lang === programLang);
+    let allBtnArr = loadData.filter(item => item.category.includes(activeBtn));
+    let engArabicBtnsArr = langArr.filter(item => item.category.includes(activeBtn));
+
+    if(activeBtn === 'all') {
+        programLang ? setFilterProjects(langArr) : setFilterProjects(loadData);
+      } else {
+        programLang ? setFilterProjects(engArabicBtnsArr) : setFilterProjects(allBtnArr) ;
+      }     
+    return filterProjects
+  }
 
 //---------------------- [ filterButtons component ] ---------------------------
 // Create function to handle programming language buttons 
@@ -101,11 +117,6 @@ const removeItemHandler = (id)=> {
       [id]: !prev[id]
     }));
 }
-// Create function to handle Language checkbox
-// const arabicLanguageHandler = () => {
-//   setArLanguage=(!arLanguage)
-//   console.log('arabic lan work')
-// }
 
 //-------------------------- Scroll Up Button ---------------------------
 useEffect(()=> {
@@ -114,14 +125,13 @@ useEffect(()=> {
   })
 })
 
-console.log(searchTerm);
   return (
     <div className='container flex'>
       <Header
-        userFavoriteList = {userFavoriteList}
+        favoriteItems = {favoriteItems}
+        removeFavorite = {removeFavorite}
         handleSearchInput = {handleSearchInput}
         runNewVideo = {runNewVideo}
-        removeItemHandler = {removeItemHandler}
         arLanguage = {arLanguage}
         setArLanguage = {setArLanguage}
         searchTerm = {searchTerm}
@@ -131,8 +141,8 @@ console.log(searchTerm);
         arLanguage = {arLanguage}
       /> 
       <VideoPreview 
-          data = {loadData}
-          playVid = {playVid}
+        data = {loadData}
+        playVid = {playVid}
       />
       <div className="main">
         <div className="main-left">
@@ -152,10 +162,9 @@ console.log(searchTerm);
             filterProjects = {filterSearchedProjects}
             loadData = {loadData}
             runNewVideo = {runNewVideo}
-            setUserFavoriteList = {setUserFavoriteList}
             favoriteItems = {favoriteItems}
-            setFavoriteItems = {setFavoriteItems}
             arLanguage = {arLanguage}
+            toggleFavorite = {toggleFavorite}
           />
           {/* Add condition to check if there are more projects remain or not by ckeck the length of displayed projects and length of total projects */}
           {displayedProjects.length === filterProjects.length ? <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>لا يوجد مزيد</p> : <p>No More</p>}</button> : <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>عرض المزيد</p> : <p>Load More</p>}</button>}
