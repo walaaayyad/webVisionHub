@@ -116,7 +116,7 @@ input:checked + .slider:before {
     3- Search Bar
 ======================*/
 .search-bar {
-  width: 30px;
+  width: 35px;
   display: flex;
   align-items: center;
   border-radius: 28px;
@@ -125,7 +125,7 @@ input:checked + .slider:before {
   transition: 0.5s ease-in-out;
 }
 .icon-search {
-  font-size: 25px;
+  font-size: 30px;
 }
 .icon-search, .icon-close {
   cursor: pointer;
@@ -155,9 +155,13 @@ input:checked + .slider:before {
   border: none;
   font-size: 18px;
 }
+.icon-heart {
+  border: none;
+}
 .heart-btn {
   background-color: transparent;
   cursor: pointer;
+  font-size: 20px;
 }
 
 /*====================
@@ -356,5 +360,8 @@ header .model {
 }
 .search-bar.active {
   width: 195px;
+}
+.heart-btn {
+  font-size: 17px;
 }
 }

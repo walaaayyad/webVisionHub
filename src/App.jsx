@@ -21,6 +21,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState(''); // This state to handle search input bar in the [header component].
   const [arLanguage, setArLanguage] = useState(false);
   const [scrollUp, setScrollUp] = useState(false);
+  const [showModel, setshowModel] = useState(false);
 
 //-------------------- [ projects component & header component ] -----------------------
 // Handle the favorite projects when the heart clicked.
@@ -44,6 +45,7 @@ const removeFavorite = (itemId) => {
     delete newFavorites[itemId]; // Remove the item by its ID
     return newFavorites; // Return the updated favorites state
   });
+  setshowModel(true);
 };
 // Save the favorite projects in the local storage.
 useEffect(()=> {
@@ -109,14 +111,6 @@ let lowerCase = e.target.value.toLowerCase();
 const filterSearchedProjects = displayedProjects.filter(project =>
   project.title.toLowerCase().includes(searchTerm)
 );
-// Creat function to handle removed item from the favorite list & remove active state from its card
-const removeItemHandler = (id)=> {
-  setUserFavoriteList((prevList) => prevList.filter(item => item.id !== id));
-  setFavoriteItems((prev) => ({
-      ...prev,
-      [id]: !prev[id]
-    }));
-}
 
 //-------------------------- Scroll Up Button ---------------------------
 useEffect(()=> {
@@ -135,6 +129,8 @@ useEffect(()=> {
         arLanguage = {arLanguage}
         setArLanguage = {setArLanguage}
         searchTerm = {searchTerm}
+        showModel= {showModel}
+        setshowModel= {setshowModel}
       />
       <div id='up'></div>
       <Hero

@@ -2,16 +2,18 @@ import React from 'react'
 import './header.css';
 import {useState, useEffect} from 'react'
 
-const Header = ({handleSearchInput, runNewVideo, arLanguage, setArLanguage, searchTerm, favoriteItems, removeFavorite})=> {
-  const [showModel, setshowModel] = useState(false);
+const Header = ({handleSearchInput, runNewVideo, arLanguage, setArLanguage, searchTerm, favoriteItems, removeFavorite, showModel, setshowModel})=> {
+  // const [showModel, setshowModel] = useState(false);
 
-  // Search Bar Functions
+  //----------------- Search Bar Functions ----------------------
   const openSearchBar = ()=> {
     document.querySelector("#search-box").classList.add('active');
   }
   const closeSearchBar = ()=> {
     document.querySelector("#search-box").classList.remove('active');
   }
+
+  //----------------- Favorite List Model ------------------------
   const openMenuHandler = ()=> {
     document.body.classList.add('menuOpen');
     setshowModel(true);
@@ -59,14 +61,15 @@ const fav = Object.keys(favoriteItems);
                 onClick={closeSearchBar}> 
           </span>
         </div>
-        <button className='heart-btn icon-heart-o' 
+        <button className={fav.length > 0? 'heart-btn icon-heart': 'heart-btn icon-heart-o'}  
                 onClick={()=> {
                 fav.length > 0 && openMenuHandler();
                 }}>
+                  <sup style={{color: "#ffffffc4"}}>{fav.length}</sup>
         </button>
       </div>
 
-      <div className={showModel ? "model active" : "model"}> {/* Add condition if showModel state change to true class active will add */}
+      <div id='model' className={showModel ? "model active" : "model"}> {/* Add condition if showModel state change to true class active will add */}
         <button className="close-btn icon-close" 
                 onClick={()=> {
                   closeMenuHandler();
