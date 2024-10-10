@@ -7,7 +7,7 @@ const projects = ({filterProjects, runNewVideo, favoriteItems, arLanguage, toggl
 
   return (
     <div id='projects' className="projects flex">
-      {filterProjects.length === 0 && <div className='no-project-screen'>SORRY NO PROJECTS AVAILABLE</div>}
+      {filterProjects.length === 0 && <div className='no-project-screen'>{arLanguage? <p>لا يوجد مشاريع متاحة على هذه الصفحة</p> : <p>No Projects Available On This Page</p>}</div>}
       <div id='cards' className='cards flex'>
       {filterProjects.map(i => {
         return (

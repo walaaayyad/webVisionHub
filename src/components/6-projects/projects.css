@@ -180,6 +180,11 @@ box-shadow:  9px 9px 18px #0d0926,
 }
 .no-project-screen {
     width: 80vw;
+    background: -webkit-linear-gradient(-45deg,#36e3ef,#a78ddc, #db3db6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    margin-left: 30%;
     text-align: center;
 }
 /* .card-content .icon-youtube-play {
