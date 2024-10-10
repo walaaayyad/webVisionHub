@@ -52,7 +52,7 @@ header::after {
 .slider {
   position: absolute;
   cursor: pointer;
-  height: 18px;
+  height: 30px;
   width: 70px;
   padding: 3px 0px;
   top: 5px;
@@ -191,8 +191,8 @@ header .model{
   transition: all 1.5s ease;
 }
 .model.active {
-  clip-path: circle(2000px at 100% -15%);
-  -webkit-clip-path: circle(2000px at 100% -15%);
+  clip-path: circle(160vh at 50% -15%);
+  -webkit-clip-path: circle(160vh at 50% -15%);
 }
 .model .close-btn {
   position: sticky;
@@ -217,19 +217,25 @@ header .model{
 /*====================
     6- Favorite List
 ======================*/
+.favorite-list {
+  width: 35%;
+}
 .favorite-list img {
-  width: 130px;
-  border-radius: 10px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
 }
 .favorite-list-item {
   width: 100%;
+  height: 120px;
   margin: 10px auto;
   background-color: #292458;
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   border-radius: 10px;
-  box-shadow: inset -3px -3px 3px #0f4566b8;
+  box-shadow: inset -3px -3px 3px #1e1d1fb8;
 }
 .favorite-list-item-content {
   flex-grow: 1;
@@ -237,18 +243,18 @@ header .model{
   padding: 7px 0px;
 }
 .favorite-list-item-content p {
-  font-size: 12px;
+  font-size: 18px;
   padding: 4px;
     
 }
 .list-category {
-  font-size: 10px;
+  font-size: 13px;
 }
 .favorite-list-item-content button {
   font-size: 10px;
-  padding: 2px 7px;
-  margin: 2px;
-  margin-top: 10px;
+  padding: 5px 18px;
+  margin: 5px;
+  margin-top: 20px;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -263,19 +269,44 @@ header .model{
 /* LARGE DESKTOP VERSION ONLY */
 @media (min-width: 1400px) {
   .model.active {
-  clip-path: circle(3000px at 100% -15%);
-  -webkit-clip-path: circle(3000px at 100% -15%);
+  clip-path: circle(180vh at 50% 15%);
+  -webkit-clip-path: circle(180vh at 50% 15%);
 }
 }
 /************************************************/
 /* DESKTOP VERSION ONLY */
-@media (max-width: 1399.98px) {}
+@media (max-width: 1399.98px) {
+  .favorite-list {
+  width: 50%;
+}
+.favorite-list-item {
+  height: fit-content;
+}
+.favorite-list-item-content button {
+  font-size: 10px;
+  padding: 7px 35px;
+  margin-top: 15px;
+}
+.favorite-list img {
+  width: 250px;
+}
+}
 /*****************************************/
 /* TABLET MEDIUM & LARGE VERSION ONLY */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+.favorite-list {
+  width: 60%;
+}
+}
 /*******************************************/
 /* TABLET SMALL VERSION ONLY */
 @media (max-width: 768px) {
+.favorite-list {
+  width: 80%;
+}
+.favorite-list img {
+  
+}
   .search-bar.active {
   width: 300px;
   padding: 3px 0px;
@@ -297,7 +328,6 @@ header .model{
   font-size: 15px;
 }
 .slider {
-  height: 15px;
   width: 55px;
 }
 .slider:before {
@@ -317,11 +347,16 @@ header .model{
 .model .close-btn {
   top: 12px;
   margin-left: 85%;
-  font-size: 18px;
+  font-size: 15px;
 }
 .favorite-list img {
-    width: 90px;
-    height: 70px;
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.favorite-list-item-content button {
+  padding: 5px 15px;
 }
 .model.active {
   clip-path: circle(1500px at 100% -15%);
@@ -331,18 +366,22 @@ header .model{
 /**********************************/
 /* VERY SMALL MOBILE */
 @media (max-width: 400px) {
+  .favorite-list {
+  width: 85%;
+}
 .favorite-list-item-content p {
-  font-size: 10px;
+  font-size: 15px;
   padding: 0px;
 }
 .favorite-list img {
-    width: 120px;
-    height: 55px;
+    width: 90%;
+    height: 100px;
     margin: auto;
     margin-top: 6px;
 }
 .favorite-list-item {
-  width: 97%;
+  width: 85%;
+  height: fit-content;
   flex-wrap: wrap;
 }
 .search-bar.active {
