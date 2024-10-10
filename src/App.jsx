@@ -109,7 +109,8 @@ let lowerCase = e.target.value.toLowerCase();
 };
 // Filter projects based on search term
 const filterSearchedProjects = displayedProjects.filter(project =>
-  project.title.toLowerCase().includes(searchTerm)
+  project.title.toLowerCase().includes(searchTerm) ||
+  project.des.toLowerCase().includes(searchTerm)
 );
 
 //-------------------------- Scroll Up Button ---------------------------

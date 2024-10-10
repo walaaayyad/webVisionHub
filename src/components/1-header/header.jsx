@@ -22,12 +22,6 @@ const Header = ({handleSearchInput, runNewVideo, arLanguage, setArLanguage, sear
     document.body.classList.remove('menuOpen');
     setshowModel(false);
   }
-// Handle close favorite menu when click outside the menu.
-useEffect(()=> {
-  document.addEventListener('mousedown', ()=> {
-    closeMenuHandler();
-  })
-})
 
 // Handle the favoriteItems data to be able to use it
 const fav = Object.keys(favoriteItems);
@@ -42,7 +36,7 @@ const fav = Object.keys(favoriteItems);
             checked={arLanguage}
             onChange={()=> setArLanguage(!arLanguage)}
             />
-          <div className='slider round'><span>OFF</span><span>ON</span></div>
+          <div className='slider round'><span>EN</span><span>AR</span></div>
         </label>
       </div>
 
@@ -86,8 +80,11 @@ const fav = Object.keys(favoriteItems);
                 <div className="favorite-list-item-content">
                   <p>{item.title}</p>
                   <div className='list-category'>{item.category.join(' , ')}</div>
-                  <button className='grade-bg' onClick={()=> {   
-                      runNewVideo(item.embedId)}}>Play Now</button>
+                  <button className='grade-bg' 
+                          onClick={()=> {   
+                      runNewVideo(item.embedId);
+                      setshowModel(false);
+                      }}>Play Now</button>
                   <button onClick={()=> removeFavorite(item.id)}>Remove</button>
                 </div>
               </div>
