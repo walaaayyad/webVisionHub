@@ -101,11 +101,13 @@ const handleLoadMore = () => {
   console.log(filterProjects.length);
 };
 
-//----------------------- [ header component ] ----------------------------
+//----------------------- [ Search Input => Header Component ] ----------------------------
 // Create function to handle user input search
 const handleSearchInput = (e) => {
+let projects = document.getElementById('projects');
 let lowerCase = e.target.value.toLowerCase();
-    setSearchTerm(lowerCase); 
+    setSearchTerm(lowerCase);
+    projects.scrollIntoView(); // Scroll to the projects section when start make a search.
 };
 // Filter projects based on search term
 const filterSearchedProjects = displayedProjects.filter(project =>
@@ -164,7 +166,9 @@ useEffect(()=> {
             toggleFavorite = {toggleFavorite}
           />
           {/* Add condition to check if there are more projects remain or not by ckeck the length of displayed projects and length of total projects */}
-          {displayedProjects.length === filterProjects.length ? <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>لا يوجد مزيد</p> : <p>No More</p>}</button> : <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>عرض المزيد</p> : <p>Load More</p>}</button>}
+          {displayedProjects.length === filterProjects.length ? 
+          <button className='loadMoreBtn grade-bg' style={{opacity:0}}></button> : 
+          <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>عرض المزيد</p> : <p>Load More</p>}</button>}
         </div>
       </div>
         {/* Add condition to check if the user scroll down so the button appear by change its opacity */}

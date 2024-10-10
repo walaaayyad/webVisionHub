@@ -6,7 +6,7 @@ const projects = ({filterProjects, runNewVideo, favoriteItems, arLanguage, toggl
   const [activeVid, setActiveVid] = useState([2]);
 
   return (
-    <div className="projects flex">
+    <div id='projects' className="projects flex">
       {filterProjects.length === 0 && <div className='no-project-screen'>SORRY NO PROJECTS AVAILABLE</div>}
       <div id='cards' className='cards flex'>
       {filterProjects.map(i => {
