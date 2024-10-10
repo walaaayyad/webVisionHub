@@ -4,13 +4,7 @@
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 .projects {
     width: 100%;
-    /* width: 100%;
-    margin: auto;
-    background-image:linear-gradient(180deg, rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../../../public/images/background.jpg');
-    background-position: center;
-    background-size: contain;
-    border-radius: 20px;
-    flex-direction: column; */
+    flex-direction: column;
 }
 .cards{
     width: inherit;
@@ -20,44 +14,11 @@
 }
 .cards .card {
     width: 30%;
-    /* border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px; */
-    /* box-shadow: -3px -4px -5px #673ab775; */
     padding: 7px;
     margin: 5px;
     position: relative;
-    /* margin: 10px auto; */
-    /* background-color: #21253f8a; */
-    /* background: rgba( 230, 250, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 8.5px );
-    -webkit-backdrop-filter: blur( 8.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
     animation: fadeIn 2s;
-
-    /* border: 10px solid; */
-  
-
-    /* From https://css.glass */
-/* background: rgba(255, 255, 255, 0.12);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(7px);
--webkit-backdrop-filter: blur(7px);
-border: 1px solid rgba(255, 255, 255, 0.39); */
-
-/* background: #130e3a;
-box-shadow:  9px 9px 18px #0d0926,
-             -9px -9px 18px #19134e; */
 }
-/* @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-} */
-/* .cards .card.activeVid {
-    border: 4px solid green;
-} */
 .cards .card .heart {
     position: absolute;
     top: 5px;
@@ -155,8 +116,6 @@ box-shadow:  9px 9px 18px #0d0926,
     justify-content: center;
     font-size: 12px;
     letter-spacing: 1.2px;
-    /* border: 1px solid rgba(255, 255, 255, 0.399); */
-    /* background-color: rgba(255, 255, 255, 0.189); */
     border-radius: 5px;
     background: rgba(54, 227, 239, 0.5);
     background: linear-gradient(-45deg, hsla(184, 85%, 57%, 0.5) 0%, #4b00e0 50%, hsla(260, 100%, 44%, 0.5) 70%, rgba(236, 158, 255, 0.5) 100%);
@@ -184,32 +143,11 @@ box-shadow:  9px 9px 18px #0d0926,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2em;
-    margin-left: 30%;
     text-align: center;
 }
-/* .card-content .icon-youtube-play {
-    color: red;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5px;
-    font-size: large;
-} */
-/*==== 4_4 Watch Now Model ====*/
-/* .cards .card .video-play-btn {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 5;
-    justify-content: center;
-    font-size: 1.5em;
-    cursor: pointer;
+.no-project-screen p {
+    display: inline;
 }
- */
 /*----------------------------------------------------------------------------------
 **********************************  MEDIA QUERY **********************************
 -----------------------------------------------------------------------------------*/
@@ -257,8 +195,14 @@ box-shadow:  9px 9px 18px #0d0926,
 /* VERY SMALLMOBILE VERSION ONLY */
 
 @media (max-width: 500px) {
-  .cards .card {
+.cards .card {
     width: 95%;
     margin-bottom: 40px;
-  }
+}
+.no-project-screen {
+    width: 100%;
+}
+.no-project-screen p {
+    font-size: 20px;
+}
 }
