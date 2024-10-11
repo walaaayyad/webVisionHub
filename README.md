@@ -17,13 +17,12 @@ This project is a web application built using Vite and React, designed to provid
     Open your browser and go to http://localhost:5173 to view the application.
 
 - **Features**
-<ul>
-    <li>- Fast development with Vite.</li>
-    <li>- Component-based architecture with React.</li>
-    <li>- Responsive design.</li>
-    <li>- Easy state management.</li>
-    <li>- Access to over 70 video projects for hands-on training.</li>
-</ul>
+    - Fast development with Vite.
+    - Component-based architecture with React.
+    - Responsive design.
+    - Easy state management.
+    - Access to over 70 video projects for hands-on training.
+
 
 - **Video Content**
    <br> This repository includes links to more than 70 curated YouTube videos, each covering full front-end development projects. These resources are ideal for developers looking to practice and improve their skills.
