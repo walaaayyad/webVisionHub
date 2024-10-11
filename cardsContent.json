@@ -3,7 +3,7 @@
         "link": "https://www.youtube.com/watch?v=e4P15Wc0wq8",
         "lang": "ar",
         "category": ["htmlCss" , "js"],
-        "img": "./cardsImages/vid10.png",
+        "img": "./cardsImages/vid10-min.png",
         "title": "Guess The Word Game",
         "des": "[Arabic] HTML, CSS, JavaScript Tutorials",
         "embedId":"e4P15Wc0wq8"
@@ -13,7 +13,7 @@
         "link": "https://www.youtube.com/watch?v=bv_IJ3N6y8U&t=973s",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid1.png",
+        "img": "./cardsImages/vid1-min.png",
         "title": "Portfolio Website",
         "des": "React portfolio website with animation",
         "embedId":"bv_IJ3N6y8U"
@@ -23,7 +23,7 @@
         "link": "https://youtu.be/PRBO40Lpa18?si=7LzsYKlrgEwswbN4",
         "lang": "ar",
         "category": ["htmlCss","js"],
-        "img": "./cardsImages/vid54.png",
+        "img": "./cardsImages/vid54-min.png",
         "title": " ٥ مشاريع جافاسكريبت",
         "des": "Build Responsive Websites with HTML, CSS, Javascript",
         "embedId":"PRBO40Lpa18"
@@ -33,7 +33,7 @@
         "link": "https://youtu.be/0PG3XYI3Giw?si=1v8mjFP2ngrxoD4G",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid67.png",
+        "img": "./cardsImages/vid67-min.png",
         "title": "XO Game",
         "des": "في رياكت XO شرح طريقة بناء لعبة | Build Tic-Tac-Toe in React.js (Arabic)",
         "embedId":"0PG3XYI3Giw"
@@ -43,7 +43,7 @@
         "link": "https://youtu.be/ZFb_eaYtWwY?si=o6EbYC_g5ZyOHMqR",
         "lang": "ar",
         "category": ["htmlCss", "js"],
-        "img": "./cardsImages/vid9.png",
+        "img": "./cardsImages/vid9-min.png",
         "title": "Hangman Game",
         "des": "[Arabic] HTML, CSS, JavaScript Tutorials",
         "embedId":"ZFb_eaYtWwY"
@@ -53,7 +53,7 @@
         "link": "https://www.youtube.com/watch?v=cARGOrtiWt4",
         "lang": "ar",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid5.png",
+        "img": "./cardsImages/vid5-min.png",
         "title": "Portfolio Website",
         "des": "Build a portfolio website using HTML & CSS - بناء موقع كامل",
         "embedId": "cARGOrtiWt4"
@@ -63,7 +63,7 @@
         "link": "https://www.youtube.com/watch?v=HtunPQtr-Xw",
         "lang": "en",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid6.png",
+        "img": "./cardsImages/vid6-min.png",
         "title": "5 Mini Projects",
         "des": "5 Mini Projects - Scroll Animation, Rotating Navigation, Drag Events",
         "embedId": "HtunPQtr-Xw" 
@@ -73,7 +73,7 @@
         "link": "https://www.youtube.com/watch?v=t7S0I78sloI",
         "lang": "en",
         "category": ["react"],
-        "img": "./cardsImages/vid7.png",
+        "img": "./cardsImages/vid7-min.png",
         "title": "Chat App",
         "des": "Build A RealTime Chat App With React & Appwrite Cloud",
         "embedId": "t7S0I78sloI"
@@ -83,7 +83,7 @@
         "link": "https://www.youtube.com/watch?v=hhudoSMM0yU&t=129s",
         "lang": "en",
         "category": ["next", "ts"],
-        "img": "./cardsImages/vid8.png",
+        "img": "./cardsImages/vid8-min.png",
         "title": "Admin Dashboard",
         "des": "Admin Dashboard From Scratch - Next.js, TypeScript, Shadcn/ui",
         "embedId": "hhudoSMM0yU"
@@ -93,7 +93,7 @@
         "link": "https://youtu.be/7pK3msaikHA?si=FViGkmHuIcwXelBP",
         "lang": "ar",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid16.png",
+        "img": "./cardsImages/vid16-min.png",
         "title": "Hospital Website",
         "des": "CSS و ال HTML بناء موقع الكتروني لمستشفي باستخدام ال ",
         "embedId":"7pK3msaikHA"
@@ -103,7 +103,7 @@
         "link": "https://youtu.be/Iy7oFI76FpE?si=LjmVD0OC1JFA7UH5",
         "lang": "ar",
         "category": ["htmlCss", "js"],
-        "img": "./cardsImages/vid11.png",
+        "img": "./cardsImages/vid11-min.png",
         "title": "Scrolling Website",
         "des": "Make a Scrolling Website using Html & CSS & Javascript",
         "embedId":"Iy7oFI76FpE"
@@ -113,7 +113,7 @@
         "link": "https://youtu.be/6fBgH9nYC_s?si=6cBS5SQA8t-psVTM",
         "lang": "ar",
         "category": ["node"],
-        "img": "./cardsImages/vid15.png",
+        "img": "./cardsImages/vid15-min.png",
         "title": "Customers Database",
         "des": "Node js Express project - node js شرح - node js crash course",
         "embedId":"6fBgH9nYC_s"
@@ -123,7 +123,7 @@
         "link": "https://youtu.be/UgfjTV5pEC4?si=vFZoHIcBe-N5c3qF",
         "lang": "en",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid3.png",
+        "img": "./cardsImages/vid3-min.png",
         "title": "Landing Page",
         "des": "Learn the Latest Bootstrap in 2024",
         "embedId":"UgfjTV5pEC4"
@@ -134,7 +134,7 @@
         "link": "https://youtu.be/RbxHZwFtRT4?si=M5zSgXHsTr3zt9Kb",
         "lang": "en",
         "category": ["htmlCss", "react", "tailwind", "next"],
-        "img": "./cardsImages/vid14.png",
+        "img": "./cardsImages/vid14-min.png",
         "title": "3 Modern UI/UX Websites",
         "des": "Build and Deploy 3 Modern UI/UX Websites and Get Hired",
         "embedId":"RbxHZwFtRT4"
@@ -144,7 +144,7 @@
         "link": "https://youtu.be/hE0azYXN_W0?si=fUcGVEjfg0DdsCPn",
         "lang": "ar",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid13.png",
+        "img": "./cardsImages/vid13-min.png",
         "title": "Restaurant Website",
         "des": "Build a Restaurant Using HTML and CSS using Flexbox Only",
         "embedId":"hE0azYXN_W0"
@@ -154,7 +154,7 @@
         "link": "https://youtu.be/jR-ASG4oBXs?si=1XuiyS6z12t6NBTN",
         "lang": "ar",
         "category": ["wp"],
-        "img": "./cardsImages/vid4.png",
+        "img": "./cardsImages/vid4-min.png",
         "title": "إنشاء متجر الكتروني",
         "des": " كيفية إنشاء متجر الكتروني خطوة بخطوة للمبتدئين 2024",
         "embedId":"jR-ASG4oBXs"
@@ -165,7 +165,7 @@
         "link": "https://youtu.be/l7WzND2sD-A?si=F5ooutXcvaFGMB6q",
         "lang": "ar",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid17.png",
+        "img": "./cardsImages/vid17-min.png",
         "title": "E-commerce Website",
         "des": "HTML CSS E-commerce Website | مشروع كامل من البداية خطوة بخطوة",
         "embedId":"l7WzND2sD-A"
@@ -175,7 +175,7 @@
         "link": "https://youtu.be/p3F0IqMQQpg?si=INwUAaREOjbUjQps",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid18.png",
+        "img": "./cardsImages/vid18-min.png",
         "title": "E-commerce Website",
         "des": "React E-commerce project with Backend (full project) + Download",
         "embedId":"p3F0IqMQQpg"
@@ -185,7 +185,7 @@
         "link": "https://youtu.be/gWhHrrC1o1k?si=BvkJzsoirech5ObX",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid19.png",
+        "img": "./cardsImages/vid19-min.png",
         "title": "Admin Dashboard",
         "des": "React Admin Dashboard Full Project مشروع رياكت كامل",
         "embedId":"gWhHrrC1o1k"
@@ -195,7 +195,7 @@
         "link": "https://youtu.be/mXlLXnftTP0?si=P19JsMEHTogPRqM1",
         "lang": "ar",
         "category": ["htmlCss"],
-        "img": "./cardsImages/vid49.png",
+        "img": "./cardsImages/vid49-min.png",
         "title": "موقع القرآن الكريم",
         "des": "برمجة موقع القرآن الكريم باستخدام API",
         "embedId":"mXlLXnftTP0"
@@ -205,7 +205,7 @@
         "link": "https://youtu.be/nJZAvdUhUMs?si=MUfgW0ojpwvTn4Sr",
         "lang": "ar",
         "category": ["js"],
-        "img": "./cardsImages/vid21.png",
+        "img": "./cardsImages/vid21-min.png",
         "title": "Products Management System",
         "des": "مشروع ادارة منتجات كامل بالجافاسكريبت | Full product management system crud with javascript",
         "embedId":"nJZAvdUhUMs"
@@ -215,7 +215,7 @@
         "link": "https://youtu.be/B91wc5dCEBA?si=0wTaRFPHcPU_o_b-",
         "lang": "en",
         "category": ["react","tailwind"],
-        "img": "./cardsImages/vid2.png",
+        "img": "./cardsImages/vid2-min.png",
         "title": "Landing Page",
         "des": "Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind",
         "embedId":"B91wc5dCEBA"
@@ -226,7 +226,7 @@
         "link": "https://youtu.be/Rf2HM9xSAz0?si=0pf7gFoXlvmMwcnw",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid23.png",
+        "img": "./cardsImages/vid23-min.png",
         "title": "Multi-language Website",
         "des": "React multi-language app | بناء موقع متعدد اللغات - شرح بالتفصيل",
         "embedId":"Rf2HM9xSAz0"
@@ -236,7 +236,7 @@
         "link": "https://youtu.be/4sosXZsdy-s?si=cbJHKYgP4YpRabQX",
         "lang": "en",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid24.png",
+        "img": "./cardsImages/vid24-min.png",
         "title": "Landing Page",
         "des": "Bootstrap 5 Crash Course | Website Build & Deploy",
         "embedId":"4sosXZsdy-s"
@@ -246,7 +246,7 @@
         "link": "https://youtu.be/c7vtdqiIEPw?si=4-NW35sqd3zmyDAV",
         "lang": "en",
         "category": ["wp"],
-        "img": "./cardsImages/vid25.png",
+        "img": "./cardsImages/vid25-min.png",
         "title": "Landing Page",
         "des": "How To Make a FREE Professional Website ~Step By Step~ 2024 (WordPress And Elementor For Beginners)",
         "embedId":"c7vtdqiIEPw"
@@ -256,7 +256,7 @@
         "link": "https://youtu.be/kg2gTkifC-Y?si=dCCpUsTBn9JVMP4h",
         "lang": "en",
         "category": ["wp"],
-        "img": "./cardsImages/vid26.png",
+        "img": "./cardsImages/vid26-min.png",
         "title": "E-commerce Website",
         "des": "How to Create a FREE eCommerce Website with WordPress ~ ONLINE STORE ~ WooCommerce 2023",
         "embedId":"kg2gTkifC-Y"
@@ -266,7 +266,7 @@
         "link": "https://youtu.be/lxV47Q936oc?si=yqzg7WucQHu6pGHi",
         "lang": "ar",
         "category": ["wp"],
-        "img": "./cardsImages/vid27.png",
+        "img": "./cardsImages/vid27-min.png",
         "title": "Educational Website",
         "des": "شرح إنشاء و تصميم موقع منصة كورسات تعليمية ووردبريس - WordPress - Tutor LMS Plugin",
         "embedId":"lxV47Q936oc"
@@ -276,7 +276,7 @@
         "link": "https://youtu.be/sgZtrdcm5eI?si=aFB6pwnnbi-aNc4j",
         "lang": "ar",
         "category": ["wp"],
-        "img": "./cardsImages/vid28.png",
+        "img": "./cardsImages/vid28-min.png",
         "title": "E-commerce Website",
         "des": "دليل مفصل لإنشاء متجر إلكتروني باستخدام ووردبريس: الشرح الكامل",
         "embedId":"sgZtrdcm5eI"
@@ -286,7 +286,7 @@
         "link": "https://youtu.be/_W3R2VwRyF4?si=xgd7Xa9v-KWJ_tsk",
         "lang": "en",
         "category": ["react", "tailwind"],
-        "img": "./cardsImages/vid29.png",
+        "img": "./cardsImages/vid29-min.png",
         "title": "Social Media App",
         "des": "Build and Deploy a Full Stack Social Media App | React JS, Appwrite, Tailwind CSS, React Query",
         "embedId":"_W3R2VwRyF4"
@@ -296,7 +296,7 @@
         "link": "https://youtu.be/FTH6Dn3AyIQ?si=lgHGyfEavUq6I9OP",
         "lang": "en",
         "category": ["next"],
-        "img": "./cardsImages/vid30.png",
+        "img": "./cardsImages/vid30-min.png",
         "title": "Portfolio Website",
         "des": "Build and Deploy an Amazing Developer Portfolio with Next JS and Framer Motion",
         "embedId":"FTH6Dn3AyIQ"
@@ -306,7 +306,7 @@
         "link": "https://youtu.be/sv76HcgjLZM?si=pNjabUjFb_0gdTdZ",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid31.png",
+        "img": "./cardsImages/vid31-min.png",
         "title": "Movies Website",
         "des": "Complete Project | A Complete Implementation of All Basic Concepts | Angular Zero to Hero",
         "embedId":"sv76HcgjLZM"
@@ -316,7 +316,7 @@
         "link": "https://youtu.be/ot1LRr3ez5Q?si=2PftIrmKAr58ju20",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid32.png",
+        "img": "./cardsImages/vid32-min.png",
         "title": "Dashboard",
         "des": "Angular Dashboard Creation: Step-by-Step Tutorial | Advanced Angular | Hero to Superhero",
         "embedId":"ot1LRr3ez5Q"
@@ -326,7 +326,7 @@
         "link": "https://youtu.be/BLnknlytKr4?si=UQ9GDKr_It7zSd-v",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid33.png",
+        "img": "./cardsImages/vid33-min.png",
         "title": "Budget Planner",
         "des": "Budget Planner Application in Angular 17 | Complete Project with source code from scratch",
         "embedId":"BLnknlytKr4"
@@ -336,7 +336,7 @@
         "link": "https://youtu.be/VClLG-KgB5s?si=ybkLJ2zVJHt66hvE",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid34.png",
+        "img": "./cardsImages/vid34-min.png",
         "title": "Ticket Booking",
         "des": "Bus Ticket Booking App | Angular 18 Project",
         "embedId":"VClLG-KgB5s"
@@ -346,7 +346,7 @@
         "link": "https://youtu.be/adaRRTIiwWk?si=_lL2IOKLl7xSYJGL",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid35.png",
+        "img": "./cardsImages/vid35-min.png",
         "title": "E-commerce Website",
         "des": "Ecommerce App with Angular from scratch | Angular Project | angular tutorial for beginners",
         "embedId":"adaRRTIiwWk"
@@ -356,7 +356,7 @@
         "link": "https://youtu.be/AGc8VVQL5sY?si=q5I0k6eR3SJuvxBD",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid36.png",
+        "img": "./cardsImages/vid36-min.png",
         "title": "Todo Management",
         "des": "Angular 17 Todo Management App | Angular Project",
         "embedId":"AGc8VVQL5sY"
@@ -366,7 +366,7 @@
         "link": "https://youtu.be/EuJsvyFz2kA?si=4vDZpBXPPGoj0bya",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid37.png",
+        "img": "./cardsImages/vid37-min.png",
         "title": "5 Angular Applications",
         "des": "Learn Angular by Building Real World Apps - 5 Angular Applications from Scratch | 10 Hours",
         "embedId":"EuJsvyFz2kA"
@@ -376,7 +376,7 @@
         "link": "https://youtu.be/IWpnA232fSs?si=GBHnmUe3yJgZyq7I",
         "lang": "en",
         "category": ["angular"],
-        "img": "./cardsImages/vid38.png",
+        "img": "./cardsImages/vid38-min.png",
         "title": "User Management system",
         "des": "User Management system Angular | angular 18 Projects",
         "embedId":"IWpnA232fSs"
@@ -386,7 +386,7 @@
         "link": "https://youtu.be/2JEMN338Xd0?si=fNKgJjnDTCLK4k9P",
         "lang": "ar",
         "category": ["angular"],
-        "img": "./cardsImages/vid39.png",
+        "img": "./cardsImages/vid39-min.png",
         "title": "Small Project",
         "des": "كورس Angular 17 || المحاضرة 1|| Introduction And Create Small Project",
         "embedId":"2JEMN338Xd0"
@@ -396,7 +396,7 @@
         "link": "https://youtu.be/cfiN8lCA3RM?si=04Vighbm4t2E19lb",
         "lang": "en",
         "category": ["vue", "tailwind"],
-        "img": "./cardsImages/vid40.png",
+        "img": "./cardsImages/vid40-min.png",
         "title": "Meal Search App",
         "des": "Built Complete Vue 3/Vuex application in 3 hours",
         "embedId":"cfiN8lCA3RM"
@@ -406,7 +406,7 @@
         "link": "https://youtu.be/hNPwdOZ3qFU?si=vgO6tg4G7yrtB5yy",
         "lang": "en",
         "category": ["vue"],
-        "img": "./cardsImages/vid41.png",
+        "img": "./cardsImages/vid41-min.png",
         "title": "Expense Tracker",
         "des": "Vue 3 & Composition API - Full Project",
         "embedId":"hNPwdOZ3qFU"
@@ -416,7 +416,7 @@
         "link": "https://youtu.be/S2wbkzEFVAU?si=eteZo__M2kSy0zxr",
         "lang": "en",
         "category": ["vue", "tailwind"],
-        "img": "./cardsImages/vid42.png",
+        "img": "./cardsImages/vid42-min.png",
         "title": "Landing Page",
         "des": "Building a Modern Responsive Website with Vue.js and Tailwind CSS | Step-by-Step Tutorial 2024",
         "embedId":"S2wbkzEFVAU"
@@ -426,7 +426,7 @@
         "link": "https://youtu.be/PuOVqP_cjkE?si=hibzRLF-Q1oFE6Ld",
         "lang": "en",
         "category": ["next"],
-        "img": "./cardsImages/vid43.png",
+        "img": "./cardsImages/vid43-min.png",
         "title": "Banking App",
         "des": "Build and Deploy a Banking App with Finance Management Dashboard Using Next.js 14",
         "embedId":"PuOVqP_cjkE"
@@ -436,7 +436,7 @@
         "link": "https://youtu.be/jffKw_NMfnw?si=TQia3sG7a4r_xZ_4",
         "lang": "en",
         "category": ["vue"],
-        "img": "./cardsImages/vid44.png",
+        "img": "./cardsImages/vid44-min.png",
         "title": "E-commerce Website",
         "des": "Laravel + Vue E-commerce Website - Build and Deploy",
         "embedId":"jffKw_NMfnw"
@@ -446,7 +446,7 @@
         "link": "https://youtu.be/6a3Dz8gwjdg?si=y8NuBRd5JIEuVTKg",
         "lang": "en",
         "category": ["react"],
-        "img": "./cardsImages/vid45.png",
+        "img": "./cardsImages/vid45-min.png",
         "title": "Dashboard",
         "des": "Build and Deploy a React Admin Dashboard With Real time Data, Charts, Events, Kanban, CRM, and More",
         "embedId":"6a3Dz8gwjdg"
@@ -456,7 +456,7 @@
         "link": "https://youtu.be/0fYi8SGA20k?si=Ji_Lvn3lDY0MHZmc",
         "lang": "en",
         "category": ["react"],
-        "img": "./cardsImages/vid46.png",
+        "img": "./cardsImages/vid46-min.png",
         "title": "Portfolio Website",
         "des": "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS | Beginner Three.js Tutorial",
         "embedId":"0fYi8SGA20k"
@@ -466,7 +466,7 @@
         "link": "https://youtu.be/qhjxAP1hFuI?si=yGKYoT3KU8aFGa1x",
         "lang": "en",
         "category": ["vue"],
-        "img": "./cardsImages/vid47.png",
+        "img": "./cardsImages/vid47-min.png",
         "title": "Todo List",
         "des": "Build a Todo List App in Vue JS with LocalStorage in 2022 | Vue 3 for Beginners",
         "embedId":"qhjxAP1hFuI"
@@ -476,7 +476,7 @@
         "link": "https://youtu.be/iFOEU6YNBzw?si=arkpmDCzYAf362cU",
         "lang": "en",
         "category": ["vue"],
-        "img": "./cardsImages/vid48.png",
+        "img": "./cardsImages/vid48-min.png",
         "title": "Ride Share App",
         "des": "Build A Ride Share App: Full Stack Tutorial with Laravel and Vue",
         "embedId":"iFOEU6YNBzw"
@@ -486,7 +486,7 @@
         "link": "https://youtu.be/s6U5pH_M-Dg?si=X7Pehhk0gFiyHkca",
         "lang": "ar",
         "category": ["htmlCss", "js"],
-        "img": "./cardsImages/vid20.png",
+        "img": "./cardsImages/vid20-min.png",
         "title": "Landing Page",
         "des": "Make a creative landing page using html - css - js | عمل موقع الكتروني بتصميم متغير",
         "embedId":"s6U5pH_M-Dg"
@@ -496,7 +496,7 @@
         "link": "https://youtu.be/NQlSMZg8b10?si=2RgyJgvVsS2iM_wR",
         "lang": "ar",
         "category": ["next"],
-        "img": "./cardsImages/vid50.png",
+        "img": "./cardsImages/vid50-min.png",
         "title": "E-commerce Website",
         "des": "برمجة متجر الكتروني مع تسجيل مستخدم جديد وتسجيل الدخول",
         "embedId":"NQlSMZg8b10"
@@ -506,7 +506,7 @@
         "link": "https://youtu.be/b3ROWmXZ7iA?si=QD_nzZzdRGVov_PU",
         "lang": "ar",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid51.png",
+        "img": "./cardsImages/vid51-min.png",
         "title": "Customers Database",
         "des": "Bootstrap with Complete Project | تعلم بوتستراب من الصفر في فيديو واحد",
         "embedId":"b3ROWmXZ7iA"
@@ -516,7 +516,7 @@
         "link": "https://youtu.be/CHGHuF24Cjw?si=Xm5XZrhe1QxP21Jt",
         "lang": "en",
         "category": ["react"],
-        "img": "./cardsImages/vid52.png",
+        "img": "./cardsImages/vid52-min.png",
         "title": "Portfolio Website",
         "des": "Animated Portfolio Website with React & Framer Motion | React Project for Beginners",
         "embedId":"CHGHuF24Cjw"
@@ -526,7 +526,7 @@
         "link": "https://youtu.be/NSEXqmeVCVU?si=CicDKbESICpdYaFh",
         "lang": "ar",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid53.png",
+        "img": "./cardsImages/vid53-min.png",
         "title": "Movies Website",
         "des": "تصميم موقع كامل لعرض الافلام والمسلسلات باستخدام html - css - bootstrap",
         "embedId":"NSEXqmeVCVU"
@@ -536,7 +536,7 @@
         "link": "https://youtu.be/KRENd1sv3tE?si=iET9wX-el6UFj0QW",
         "lang": "en",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid12.png",
+        "img": "./cardsImages/vid12-min.png",
         "title": "Restaurant Website",
         "des": "Restaurant Website Design Using Bootstrap 5 | Bootstrap Landing Tutorial Step By Step",
         "embedId":"KRENd1sv3tE"
@@ -547,7 +547,7 @@
         "link": "https://youtu.be/Omvl7eWu4zA?si=UFm1NAIk2AVFNQ74",
         "lang": "en",
         "category": ["bootstrap"],
-        "img": "./cardsImages/vid55.png",
+        "img": "./cardsImages/vid55-min.png",
         "title": "Landing Page",
         "des": "Responsive landing page UI Builder site in HTML, CSS & Bootstrap 5.2",
         "embedId":"Omvl7eWu4zA"
@@ -557,7 +557,7 @@
         "link": "https://youtu.be/YoVdhJgw8Wc?si=AmrtZoj43cT7uBCz",
         "lang": "en",
         "category": ["js"],
-        "img": "./cardsImages/vid56.png",
+        "img": "./cardsImages/vid56-min.png",
         "title": "25 JavaScript Projects",
         "des": "Build 25 JavaScript Projects in 9 Hours | JS Full Course | JavaScript Interview Questions 2024",
         "embedId":"YoVdhJgw8Wc"
@@ -567,7 +567,7 @@
         "link": "https://youtu.be/lEflo_sc82g?si=xefszHYCJbUTFyoP",
         "lang": "en",
         "category": ["next","tailwind"],
-        "img": "./cardsImages/vid57.png",
+        "img": "./cardsImages/vid57-min.png",
         "title": "Patient Management System",
         "des": "Build and Deploy a Patient Management System with Next.js | Twilio, TypeScript, TailwindCSS",
         "embedId":"lEflo_sc82g"
@@ -577,7 +577,7 @@
         "link": "https://youtu.be/kt0FrkQgw8w?si=W7hdr-u733Rs9UPQ",
         "lang": "en",
         "category": ["react","threejs"],
-        "img": "./cardsImages/vid58.png",
+        "img": "./cardsImages/vid58-min.png",
         "title": "3D Portfolio",
         "des": "Build & Deploy an Amazing 3D Portfolio with React.js & Three.js | Beginner Three.js Tutorial",
         "embedId":"kt0FrkQgw8w"
@@ -587,7 +587,7 @@
         "link": "https://youtu.be/tS7upsfuxmo?si=Ah3ZwCn1lFk-Y5En",
         "lang": "en",
         "category": ["tailwind"],
-        "img": "./cardsImages/vid59.png",
+        "img": "./cardsImages/vid59-min.png",
         "title": "Nike Website",
         "des": "Tailwind CSS Full Course 2023 | Build and Deploy a Nike Website",
         "embedId":"tS7upsfuxmo"
@@ -597,7 +597,7 @@
         "link": "https://youtu.be/yelcI4CFN_o?si=UnO5pxm8snyJteb5",
         "lang": "ar",
         "category": ["react", "next", "tailwind"],
-        "img": "./cardsImages/vid60.png",
+        "img": "./cardsImages/vid60-min.png",
         "title": "Airbnb Clone",
         "des": "Build Airbnb Clone with NEXT.JS! | App Directory (ReactJS, Tailwind CSS, Mapbox)",
         "embedId":"yelcI4CFN_o"
@@ -607,7 +607,7 @@
         "link": "https://youtu.be/pvElQnzVmD8?si=dt-EcHTlODSfE5TD",
         "lang": "ar",
         "category": ["react"],
-        "img": "./cardsImages/vid61.png",
+        "img": "./cardsImages/vid61-min.png",
         "title": "موقع مواقيت الصلاة",
         "des": "بناء موقع مواقيت الصلاة باستخدام رياكت | React JS Projects Tutorial For Beginners",
         "embedId":"pvElQnzVmD8"
@@ -617,7 +617,7 @@
         "link": "https://youtu.be/2YiHsBITlPQ?si=JeKeI-jWoTwDRSL2",
         "lang": "ar",
         "category": ["htmlCss", "js"],
-        "img": "./cardsImages/vid62.png",
+        "img": "./cardsImages/vid62-min.png",
         "title": "AI Chatbot",
         "des": "How to Build a AI Chatbot With HTML CSS JS | Chatbot Like ChatGPT and Gemini",
         "embedId":"2YiHsBITlPQ"
@@ -627,7 +627,7 @@
         "link": "https://youtu.be/0korQqBgJ_o?si=yiNtYSwf_s9fZ_to",
         "lang": "en",
         "category": ["framer"],
-        "img": "./cardsImages/vid63.png",
+        "img": "./cardsImages/vid63-min.png",
         "title": "Build a 3D Site",
         "des": "Build a 3D Site Without Code with Framer - Crash Course",
         "embedId":"0korQqBgJ_o"
@@ -637,7 +637,7 @@
         "link": "https://youtu.be/KVDz9fV7pbs?si=fF7Euwq1WXV-wQNq",
         "lang": "en",
         "category": ["framer"],
-        "img": "./cardsImages/vid64.png",
+        "img": "./cardsImages/vid64-min.png",
         "title": "Watch Website",
         "des": "New Apple Watch Website with Framer (No-Code)",
         "embedId":"KVDz9fV7pbs"
@@ -647,7 +647,7 @@
         "link": "https://youtu.be/jLlkGVYbk48?si=sEag2SUtQ1t8lzUO",
         "lang": "en",
         "category": ["framer"],
-        "img": "./cardsImages/vid65.png",
+        "img": "./cardsImages/vid65-min.png",
         "title": "iPhone Website",
         "des": "iPhone 15 Pro Website with Framer (No-Code)",
         "embedId":"jLlkGVYbk48"
@@ -657,7 +657,7 @@
         "link": "https://youtu.be/YCPEQPNcFmI?si=yEtMg60GW678Fd6l",
         "lang": "en",
         "category": ["framer"],
-        "img": "./cardsImages/vid66.png",
+        "img": "./cardsImages/vid66-min.png",
         "title": "Ebook Landing Page",
         "des": "Framer Tutorial: Ebook Landing Page Lead Magnet Funnel (No Design Skills Needed)",
         "embedId":"YCPEQPNcFmI"
@@ -667,7 +667,7 @@
         "link": "https://youtu.be/t9bz_FsYjHY?si=7FfskawsmDAcjonQ",
         "lang": "ar",
         "category": ["next", "react", "tailwind"],
-        "img": "./cardsImages/vid22.png",
+        "img": "./cardsImages/vid22-min.png",
         "title": "Ecommerce Website",
         "des": "Next.js 14, React.js, TailwindCss, Strapi, Stripe",
         "embedId":"t9bz_FsYjHY"
@@ -677,7 +677,7 @@
         "link": "https://youtu.be/DwbwuYYiBTk?si=B7cC3sz_vmevzNqM",
         "lang": "en",
         "category": ["react","next","reactNative"],
-        "img": "./cardsImages/vid68.png",
+        "img": "./cardsImages/vid68-min.png",
         "title": "3 Modern Apps",
         "des": "Build and Deploy 3 Modern Apps and Get Hired as Full Stack Developer Full 12-Hour Course",
         "embedId":"DwbwuYYiBTk"
@@ -687,7 +687,7 @@
         "link": "https://youtu.be/3PHXvlpOkf4?si=dmzk_ZyshbpWT7x-",
         "lang": "en",
         "category": ["js"],
-        "img": "./cardsImages/vid69.png",
+        "img": "./cardsImages/vid69-min.png",
         "title": "15 JavaScript Projects",
         "des": "Build 15 JavaScript Projects - Vanilla JavaScript Course",
         "embedId":"3PHXvlpOkf4"
@@ -697,7 +697,7 @@
         "link": "https://youtu.be/W_y2Bwx94Qo?si=5-OQOOg7XIgjmJdq",
         "lang": "ar",
         "category": ["js"],
-        "img": "./cardsImages/vid70.png",
+        "img": "./cardsImages/vid70-min.png",
         "title": "JavaScript projects",
         "des": "JavaScript projects || مشاريع جافا سكريبت في فيديو واحد ",
         "embedId":"W_y2Bwx94Qo"
@@ -707,7 +707,7 @@
         "link": "https://youtu.be/9nIwTjG2fdI?si=fRD6ZZNNLGFDTGlA",
         "lang": "en",
         "category": ["framer"],
-        "img": "./cardsImages/vid71.png",
+        "img": "./cardsImages/vid71-min.png",
         "title": "Landing Page",
         "des": "Master No-Code Web Design with Framer - 4-hour Free Course",
         "embedId":"9nIwTjG2fdI"
