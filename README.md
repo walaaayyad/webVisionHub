@@ -5,16 +5,17 @@ This project is a web application built using Vite and React, designed to provid
 - **Installation**
    <br> To get started, clone the repository and install the dependencies:
 
-    ```bash
+```bash
     git clone https://github.com/walaaayyad/webVisionHub.git
     cd webVisionHub
     npm install
+```
 
 - **Usage**
 ```sh
     npm run dev
 ```
-    Open your browser and go to http://localhost:5173 to view the application.
+   <br> Open your browser and go to http://localhost:5173 to view the application.
 
 - **Features**
     - Fast development with Vite.
