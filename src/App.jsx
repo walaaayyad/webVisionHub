@@ -7,6 +7,7 @@ import Projects from './components/6-projects/projects'
 import Footer from './components/7-footer/footer'
 import Data from '../cardsContent.json'
 import { useState, useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 
 
 function App() {
@@ -124,6 +125,15 @@ useEffect(()=> {
 
   return (
     <div className='container flex'>
+      <Helmet>
+        <meta name="description" content="This website includes links to YouTube videos,These resources are ideal for developers looking to practice and improve their skills." />
+        <meta name="keywords" content="react, meta tags, seo" />
+        <meta name="author" content="Walaa Ayyad" />
+        <meta property="og:title" content="Web Vision Hub" />
+        <meta property="og:description" content="This website includes links to YouTube videos for developers looking to practice and improve their skills." />
+        <meta property="og:image" content="./images/logoImg.png" />
+        <meta property="og:url" content="https://walaaayyad.github.io/webVisionHub/" />
+      </Helmet>
       <Header
         favoriteItems = {favoriteItems}
         removeFavorite = {removeFavorite}
