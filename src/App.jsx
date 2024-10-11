@@ -13,6 +13,7 @@ import { Helmet } from 'react-helmet';
 function App() {
   const loadData = Data; // Import data from JSON file.
   const storedFav = JSON.parse(localStorage.getItem("fav")); // Get the localStorage data.
+  const storedLang = JSON.parse(localStorage.getItem("lang")); // Get the localStorage data.
   const [favoriteItems, setFavoriteItems] = useState(()=> storedFav ? storedFav : []); // This state to save favorite projects.
   const [playVid, setPlayVid] = useState("bv_IJ3N6y8U"); // This state for [videoPreview component] to save active video.
   const [filterProjects, setFilterProjects] = useState(loadData); // This state show the projects in [projects component] or hold the changes that comes from buttons filter in [switchLanguge component & filterButtons coponent]. 
@@ -20,7 +21,7 @@ function App() {
   const [activeBtn, setActiveBtn] = useState('all'); // This state to join the result of languages buttons with filtered programming languages or tools.
   const [currentPage, setCurrentPage] = useState(1); // This state to handle the appearance of projects, start with 8 projects and load more using button.
   const [searchTerm, setSearchTerm] = useState(''); // This state to handle search input bar in the [header component].
-  const [arLanguage, setArLanguage] = useState(false);
+  const [arLanguage, setArLanguage] = useState(()=> storedLang ? storedLang : false);
   const [scrollUp, setScrollUp] = useState(false);
   const [showModel, setshowModel] = useState(false);
 
@@ -52,6 +53,9 @@ const removeFavorite = (itemId) => {
 useEffect(()=> {
   localStorage.setItem("fav", JSON.stringify(favoriteItems))
 }, [favoriteItems])
+useEffect(()=> {
+  localStorage.setItem("lang", JSON.stringify(arLanguage))
+}, [arLanguage])
 
 
 //---------------------- [ videoPreview component ] -----------------------------
@@ -131,7 +135,7 @@ useEffect(()=> {
         <meta name="author" content="Walaa Ayyad" />
         <meta property="og:title" content="Web Vision Hub" />
         <meta property="og:description" content="This website includes links to YouTube videos for developers looking to practice and improve their skills." />
-        <meta property="og:image" content="./images/logoImg.png" />
+        <meta property="og:image" content="/images/logoImg.png" />
         <meta property="og:url" content="https://walaaayyad.github.io/webVisionHub/" />
       </Helmet>
       <Header
