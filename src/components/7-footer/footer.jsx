@@ -6,9 +6,9 @@ function footer() {
     <div className='footer flex'>
       <div>Developed By Walaa Ayyad &copy; 2024</div>
       <div className="footer-social-links flex">
-       <a href=""><span className='icon-github'></span></a>
-       <a href=""><span className='icon-linkedin-square'></span></a>
-       <a href=""><span className='icon-mail'></span></a>
+       <a href="https://github.com/walaaayyad" target="_blank"><span className='icon-github'></span></a>
+       <a href="https://www.linkedin.com/in/walaa-ayyad/" target="_blank"><span className='icon-linkedin-square'></span></a>
+       <a href="mailto:walaa_ayyad7@yahoo.com" target="_blank"><span className='icon-mail'></span></a>
       </div>
     </div>
   )
