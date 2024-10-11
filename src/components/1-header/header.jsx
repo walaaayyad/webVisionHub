@@ -83,7 +83,7 @@ const fav = Object.keys(favoriteItems);
                   <button className='grade-bg' 
                           onClick={()=> {   
                       runNewVideo(item.embedId);
-                      setshowModel(false);
+                      closeMenuHandler();
                       }}>Play Now</button>
                   <button onClick={()=> removeFavorite(item.id)}>Remove</button>
                 </div>
