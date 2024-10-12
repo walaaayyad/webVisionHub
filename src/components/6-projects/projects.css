@@ -82,8 +82,6 @@
 }
 /*==== 4_2 Cards Content ====*/
 .card-content {
-    /* background-color: rgba(75, 0, 224, 0.1); */
-    /* height: 150px; */
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -92,11 +90,6 @@
     text-align: center;
     
 }
-/* .card-content .card-title {
-    letter-spacing: 2px;
-    margin-top: 15px;
-    margin-left: 10px;
-} */
 .card-content .card-describtion {
     font-weight: 200;
     margin: 10px;
@@ -156,7 +149,7 @@
 @media (min-width: 1400px) {
     .cards .card {
         width: 23%;
-        margin: 0;
+        margin-bottom: 20px;
         padding: 0;
     }
 }

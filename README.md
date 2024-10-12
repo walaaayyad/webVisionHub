@@ -23,11 +23,11 @@ This project is a web application built using Vite and React, designed to provid
     - Component-based architecture with React.
     - Responsive design.
     - Easy state management.
-    - Access to over 70 video projects for hands-on training.
+    - Access to over 90 video projects for hands-on training.
 
 
 - **Video Content**
-   <br> This repository includes links to more than 70 curated YouTube videos, each covering full front-end development projects. These resources are ideal for developers looking to practice and improve their skills.
+   <br> This repository includes links to more than 90 curated YouTube videos, each covering full front-end development projects. These resources are ideal for developers looking to practice and improve their skills.
 
 - **Contributing**
    <br> Contributions are welcome! Please fork the repository and create a pull request for any changes you wish to make.

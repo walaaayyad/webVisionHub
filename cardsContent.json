@@ -711,5 +711,205 @@
         "title": "Landing Page",
         "des": "Master No-Code Web Design with Framer - 4-hour Free Course",
         "embedId":"9nIwTjG2fdI"
+    },
+    {
+        "id":72,
+        "link": "https://youtu.be/T5QyLcmcMJ4?si=klHTZitWg17EhXgi",
+        "lang": "ar",
+        "category": ["htmlCss","js"],
+        "img": "./cardsImages/vid72-min.png",
+        "title": "Quiz Application",
+        "des": "[Arabic] HTML, CSS, JavaScript Tutorials - Create Quiz Application",
+        "embedId":"T5QyLcmcMJ4"
+    },
+    {
+        "id":73,
+        "link": "https://youtu.be/6FOq4cUdH8k?si=ZhJoZ8xtDPYcTMQE",
+        "lang": "en",
+        "category": ["node"],
+        "img": "./cardsImages/vid73-min.png",
+        "title": "Passport Authentication",
+        "des": "Node.js With Passport Authentication | Full Project",
+        "embedId":"6FOq4cUdH8k"
+    },
+    {
+        "id":74,
+        "link": "https://youtu.be/qwfE7fSVaZM?si=0-GxmjVi8emSOWVE",
+        "lang": "en",
+        "category": ["node"],
+        "img": "./cardsImages/vid74-min.png",
+        "title": "Build 4 Projects",
+        "des": "Node.js / Express Course - Build 4 Projects",
+        "embedId":"qwfE7fSVaZM"
+    },
+    {
+        "id":75,
+        "link": "https://youtu.be/Mcw8Mp8PYUE?si=Kke8L7BrX7hRwBb2",
+        "lang": "en",
+        "category": ["next"],
+        "img": "./cardsImages/vid75-min.png",
+        "title": "Invoice App",
+        "des": "Build an Invoice App with Next.js 15",
+        "embedId":"Mcw8Mp8PYUE"
+    },
+    {
+        "id":76,
+        "link": "https://youtu.be/VRzl-nCTsaU?si=w587vzyJifRYq50M",
+        "lang": "en",
+        "category": ["node"],
+        "img": "./cardsImages/vid76-min.png",
+        "title": "Weather App",
+        "des": "Node.js Project For Beginners: NodeJS Weather App",
+        "embedId":"VRzl-nCTsaU"
+    },
+    {
+        "id":77,
+        "link": "https://youtu.be/eJ3YysWaP_A?si=4xBVTayxELdzjUBh",
+        "lang": "en",
+        "category": ["react","node"],
+        "img": "./cardsImages/vid77-min.png",
+        "title": "Real Estate App",
+        "des": "React Node.js Full Tutorial | MERN Stack App & Real-time Chat",
+        "embedId":"eJ3YysWaP_A"
+    },
+    {
+        "id":78,
+        "link": "https://youtu.be/k3Vfj-e1Ma4?si=vV2JrzhP3eHejSwX",
+        "lang": "en",
+        "category": ["react","node"],
+        "img": "./cardsImages/vid78-min.png",
+        "title": "Reservation App",
+        "des": "MERN Stack Reservation App (JWT, Cookies, Context API)",
+        "embedId":"k3Vfj-e1Ma4"
+    },
+    {
+        "id":79,
+        "link": "https://youtu.be/Gb066FcOufU?si=Y_whfhQbrpBBUXHH",
+        "lang": "en",
+        "category": ["vue","node"],
+        "img": "./cardsImages/vid79-min.png",
+        "title": "E-Commerce Site",
+        "des": "A Full-Stack E-Commerce Site | Vue JS, NodeJS, MongoDB, Postman, Express server",
+        "embedId":"Gb066FcOufU"
+    },
+    {
+        "id":80,
+        "link": "https://youtu.be/MIYQR-Ybrn4?si=PdCz8K7mz1LwDXWp",
+        "lang": "en",
+        "category": ["js"],
+        "img": "./cardsImages/vid80-min.png",
+        "title": "Weather App",
+        "des": "How To Make Weather App Using JavaScript Step By Step Explained",
+        "embedId":"MIYQR-Ybrn4"
+    },
+    {
+        "id":81,
+        "link": "https://youtu.be/V2ctvKuI9hg?si=9aonH1G0kqvZQYV3",
+        "lang": "en",
+        "category": ["node"],
+        "img": "./cardsImages/vid81-min.png",
+        "title": "Multi-Factor Authentication",
+        "des": "Build Project in Node.js & Express | Passport.js, Speakeasy 2FA",
+        "embedId":"V2ctvKuI9hg"
+    },
+    {
+        "id":82,
+        "link": "https://youtu.be/BDo1lgaZuII?si=Z_U9AITLt6Gu-O2Q",
+        "lang": "en",
+        "category": ["node"],
+        "img": "./cardsImages/vid82-min.png",
+        "title": "Notes App",
+        "des": "NodeJs Project - Build a Notes App using Express, MongoDB & Passport",
+        "embedId":"BDo1lgaZuII"
+    },
+    {
+        "id":83,
+        "link": "https://youtu.be/qu7SK7ZoKCE?si=tJd1Mm6XZa7wsB0N",
+        "lang": "ar",
+        "category": ["react","node"],
+        "img": "./cardsImages/vid83-min.png",
+        "title": "برمجية تسجيل مستخدم",
+        "des": " سنقوم بإنشاء نموذج لتسجيل مستخدم جديد في قاعدة البيانات ونموذج لتسجيل الدخول ببيانات مشفرة",
+        "embedId":"qu7SK7ZoKCE"
+    },
+    {
+        "id":84,
+        "link": "https://youtu.be/7l5UgtWfnw0?si=BUv-HQ03N3DJg-bP",
+        "lang": "en",
+        "category": ["react","node"],
+        "img": "./cardsImages/vid84-min.png",
+        "title": "Book Store",
+        "des": "How to Build a Full Stack Web Application Using (MongoDB, Express Js, React Js & Node Js)",
+        "embedId":"7l5UgtWfnw0"
+    },
+    {
+        "id":85,
+        "link": "https://youtu.be/l9zh0pqEHyc?si=KObi5eOpJtzUs_DH",
+        "lang": "en",
+        "category": ["react","next","tailwind"],
+        "img": "./cardsImages/vid85.png",
+        "title": "Booking App",
+        "des": "Create A Booking App From Scratch | React, Next.js, Appwrite, Tailwind",
+        "embedId":"l9zh0pqEHyc"
+    },
+    {
+        "id":86,
+        "link": "https://youtu.be/3JUsg-WsU9o?si=1Iez9_DS0jg50qj2",
+        "lang": "en",
+        "category": ["next"],
+        "img": "./cardsImages/vid86-min.png",
+        "title": "E-Commerce App",
+        "des": "Build and Deploy a Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024",
+        "embedId":"3JUsg-WsU9o"
+    },
+    {
+        "id":87,
+        "link": "https://youtu.be/7E6um7NGmeE?si=db6pWMrv03tTqQo5",
+        "lang": "en",
+        "category": ["react"],
+        "img": "./cardsImages/vid87-min.png",
+        "title": "E-commerce Website",
+        "des": "Create Full Stack Website Using React JS | MERN Stack eCommerce Project with Stripe",
+        "embedId":"7E6um7NGmeE"
+    },
+    {
+        "id":88,
+        "link": "https://youtu.be/8uf6lp-TkL8?si=yzACtsavFACLqBJ0",
+        "lang": "ar",
+        "category": ["htmlCss"],
+        "img": "./cardsImages/vid88-min.png",
+        "title": "موقع افاتار",
+        "des": "تصميم موقع افاتار بال html و ال css فقط | make website using html and css",
+        "embedId":"8uf6lp-TkL8"
+    },
+    {
+        "id":89,
+        "link": "https://youtu.be/Hnm3BP-tjD8?si=4mw3VZ_DSt594WXp",
+        "lang": "ar",
+        "category": ["htmlCss"],
+        "img": "./cardsImages/vid89-min.png",
+        "title": "واجهة موقع يوتيوب",
+        "des": "Build Youtube clone using HTML & CSS - بناء واجهة موقع يوتيوب",
+        "embedId":"Hnm3BP-tjD8"
+    },
+    {
+        "id":90,
+        "link": "https://youtu.be/hQPXvGgXoqQ?si=qnr65Aj8uhESIYGk",
+        "lang": "ar",
+        "category": ["htmlCss"],
+        "img": "./cardsImages/vid90-min.png",
+        "title": "واجهة موقع تويتر",
+        "des": "Build Twitter clone using HTML & CSS - بناء واجهة موقع تويتر",
+        "embedId":"hQPXvGgXoqQ"
+    },
+    {
+        "id":91,
+        "link": "https://youtu.be/oayDe1rBWQY?si=5vqlJYiDg_KWH5ZE",
+        "lang": "ar",
+        "category": ["htmlCss","js"],
+        "img": "./cardsImages/vid91-min.png",
+        "title": "Todo list",
+        "des": "Build a to Todo list app using HTML, CSS, and JavaScript",
+        "embedId":"oayDe1rBWQY"
     }
 ]

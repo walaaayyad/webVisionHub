@@ -105,6 +105,15 @@ const filterButtons = ({handleFilterProjects, activeBtn, setActiveBtn})=> {
                 Framer
         </button>
         <button 
+        className={activeBtn === 'node' ? 'active' : null}
+                onClick= {()=> {
+                  setActiveBtn('node');
+                  handleFilterProjects('node');
+                }}>
+                  <span className='icon-node-dot-js'></span> 
+                Node
+        </button>
+        <button 
         className={activeBtn === 'next' ? 'active' : null}
                 onClick= {()=> {
                   setActiveBtn('next');
