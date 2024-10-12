@@ -75,7 +75,7 @@
     height: 200px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    scale: 1.02;
+    transform: scale(1.02);
 } 
 .cards .card-img {
     overflow: hidden;

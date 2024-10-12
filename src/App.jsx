@@ -126,7 +126,7 @@ useEffect(()=> {
     window.scrollY > 600 ? setScrollUp(true) : setScrollUp(false); 
   })
 })
-
+console.log(filterSearchedProjects.length);
   return (
     <div className='container flex'>
       <Helmet>
@@ -180,7 +180,7 @@ useEffect(()=> {
             toggleFavorite = {toggleFavorite}
           />
           {/* Add condition to check if there are more projects remain or not by ckeck the length of displayed projects and length of total projects */}
-          {displayedProjects.length === filterProjects.length ? 
+          {displayedProjects.length === filterProjects.length || filterSearchedProjects.length === 0 ? 
           <button className='loadMoreBtn grade-bg' style={{opacity:0}}></button> : 
           <button className='loadMoreBtn grade-bg' onClick={handleLoadMore}>{arLanguage? <p>عرض المزيد</p> : <p>Load More</p>}</button>}
         </div>
